@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap-lib-extension v1.0.0 
+ * Copyright 2021 Daniel Raymond Obiekwe (https://madebyraymond.herokuapp.com/)
+ * Licensed under MIT (https://github.com/MadeByRaymond/Bootstrap-lib-extension/blob/master/LICENSE)
+ */
+
+
+/************* General Styles  *************/
+/* *************************************** */
+*:disabled, *[disabled]{
+    cursor: not-allowed;
+}
+
+.disable-interaction,
+.disable-interaction *{
+    pointer-events: none;
+}
+.pointer{
+    cursor: pointer!important;
+}
+
+.line-height-0{
+    line-height: 0!important;
+}
+.line-height-1{
+    line-height: 1!important;
+}
+.line-height-100p{
+    line-height: 100%!important;
+}
+.line-height-120p{
+    line-height: 120%!important;
+}
+.line-height-130p{
+    line-height: 130%!important;
+}
+.line-height-150p{
+    line-height: 150%!important;
+}
+.line-height-170p{
+    line-height: 170%!important;
+}
+.z-index-1-neg{
+    z-index: -1!important;
+}
+.z-index-0{
+    z-index: 0!important;
+}
+.z-index-1{
+    z-index: 1!important;
+}
+.z-index-2{
+    z-index: 2!important;
+}
+.z-index-3{
+    z-index: 3!important;
+}
+.z-index-4{
+    z-index: 4!important;
+}
+.z-index-5{
+    z-index: 5!important;
+}
+.w-max-100{
+    max-width: 100%!important;
+}
+.h-max-100{
+    max-height: 100%!important;
+}
+.w-33{
+    width: 33.333333%!important;
+}
+
+
+/* Opacity */
+.opacity-0{
+    opacity: 0!important;
+}
+.opacity-10p{
+    opacity: 0.1!important;
+}
+.opacity-20p{
+    opacity: 0.2!important;
+}
+.opacity-30p{
+    opacity: 0.3!important;
+}
+.opacity-40p{
+    opacity: 0.4!important;
+}
+.opacity-50p{
+    opacity: 0.5!important;
+}
+.opacity-60p{
+    opacity: 0.6!important;
+}
+.opacity-70p{
+    opacity: 0.7!important;
+}
+.opacity-80p{
+    opacity: 0.8!important;
+}
+.opacity-90p{
+    opacity: 0.9!important;
+}
+.opacity-100p{
+    opacity: 1!important;
+}
+
+
+/* Position Insets */
+.top-0{
+    top: 0!important;
+}
+.bottom-0{
+    bottom: 0!important;
+}
+.left-0{
+    left: 0!important;
+}
+.right-0{
+    right: 0!important;
+}
+
+
+/* Font Sizes */
+.fs-10{
+    font-size: 10px!important;
+}
+.fs-12{
+    font-size: 12px!important;
+}
+.fs-14{
+    font-size: 14px!important;
+}
+.fs-16{
+    font-size: 16px!important;
+}
+.fs-18{
+    font-size: 18px!important;
+}
+.fs-20{
+    font-size: 20px!important;
+}
+.fs-21{
+    font-size: 21px!important;
+}
+.fs-24{
+    font-size: 24px!important;
+}
+.fs-28{
+    font-size: 28px!important;
+}
+.fs-30{
+    font-size: 30px!important;
+}
+.fs-40{
+    font-size: 40px!important;
+}
+/* Text Wraps  */
+.white-space-nowrap{
+    white-space: nowrap!important;
+}
+/* Text Truncate */
+.text-truncater {
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    text-overflow: ellipsis;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+   /*  max-height: 64px; */
+}
+.text-truncater.text-truncater-lines-2{
+    -webkit-line-clamp: 2;
+}
+.text-truncater.text-truncater-lines-3{
+    -webkit-line-clamp: 3;
+}
+.text-truncater.text-truncater-lines-4{
+    -webkit-line-clamp: 4;
+}
+.text-truncater.text-truncater-lines-5{
+    -webkit-line-clamp: 5;
+}
+
+
+
+/* Background Size */
+.bg-size-contain{
+    background-size: contain!important;
+}
+.bg-size-cover{
+    background-size: cover!important;
+}
+.bg-size-auto{
+    background-size: auto!important;
+}
+.bg-size-unset{
+    background-size: unset!important;
+}
+
+
+/* Images */
+/* Object Fit  */
+.object-fit-contain{
+    object-fit: contain!important;
+}
+.object-fit-cover{
+    object-fit: cover!important;
+}
+.object-fit-fill{
+    object-fit: fill!important;
+}
+.object-fit-none{
+    object-fit: none!important;
+}
+.object-fit-scale-down{
+    object-fit: scale-down!important;
+}
+.object-fit-unset{
+    object-fit: unset!important;
+}
+.object-fit-inherit{
+    object-fit: inherit!important;
+}
+.object-fit-initial{
+    object-fit: initial!important;
+}
+
+
+/* Filters */
+.effect-grayscale{
+    filter: grayscale(1);
+}
+
