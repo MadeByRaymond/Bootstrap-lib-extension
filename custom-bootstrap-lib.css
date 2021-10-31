@@ -275,3 +275,94 @@
 .effect-grayscale{
     filter: grayscale(1);
 }
+
+
+
+/********** Animation ************/
+/* ***************************** */
+/* Spin Animation */
+.animator.spin {
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+
+
+/******************* Global Reusable Components ********************/
+/* *************************************************************** */
+/* Forms */
+
+/* Toggle Switch */
+.custom-switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+  }
+  
+  .custom-switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .custom-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D8D8D8;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .custom-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 15.5px;
+    width: 15.5px;
+    left: 2px;
+    bottom: 2.5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .custom-switch input:checked + .slider {
+    background-color: #1070B7;
+  }
+  
+  .custom-switch input:focus + .slider {
+    box-shadow: 0 0 1px #1070B7;
+  }
+  
+  .custom-switch input:checked + .slider:before {
+    -webkit-transform: translateX(15.5px);
+    -ms-transform: translateX(15.5px);
+    transform: translateX(15.5px);
+  }
+  
+  /* Rounded sliders */
+  .custom-switch .slider.round {
+    border-radius: 1000px;
+  }
+  
+  .custom-switch .slider.round:before {
+    border-radius: 50%;
+  }
