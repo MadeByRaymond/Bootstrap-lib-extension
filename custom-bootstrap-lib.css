@@ -174,6 +174,9 @@
 .fs-14{
     font-size: 14px!important;
 }
+.fs-15{
+    font-size: 15px!important;
+}
 .fs-16{
     font-size: 16px!important;
 }
@@ -186,8 +189,14 @@
 .fs-21{
     font-size: 21px!important;
 }
+.fs-22{
+    font-size: 22px!important;
+}
 .fs-24{
     font-size: 24px!important;
+}
+.fs-26{
+    font-size: 26px!important;
 }
 .fs-28{
     font-size: 28px!important;
@@ -198,10 +207,12 @@
 .fs-40{
     font-size: 40px!important;
 }
+
 /* Text Wraps  */
 .white-space-nowrap{
     white-space: nowrap!important;
 }
+
 /* Text Truncate */
 .text-truncater {
     overflow: hidden;
@@ -243,34 +254,6 @@
 }
 
 
-/* Images */
-/* Object Fit  */
-.object-fit-contain{
-    object-fit: contain!important;
-}
-.object-fit-cover{
-    object-fit: cover!important;
-}
-.object-fit-fill{
-    object-fit: fill!important;
-}
-.object-fit-none{
-    object-fit: none!important;
-}
-.object-fit-scale-down{
-    object-fit: scale-down!important;
-}
-.object-fit-unset{
-    object-fit: unset!important;
-}
-.object-fit-inherit{
-    object-fit: inherit!important;
-}
-.object-fit-initial{
-    object-fit: initial!important;
-}
-
-
 /* Filters */
 .effect-grayscale{
     filter: grayscale(1);
@@ -281,10 +264,15 @@
 /********** Animation ************/
 /* ***************************** */
 /* Spin Animation */
-.animator.spin {
-    -webkit-animation:spin 1s linear infinite;
-    -moz-animation:spin 1s linear infinite;
-    animation:spin 1s linear infinite;
+.animator {
+    -webkit-animation: 1s linear infinite;
+    -moz-animation: 1s linear infinite;
+    animation: 1s linear infinite;
+}
+.animator.spin{
+    -webkit-animation-name:spin;
+    -moz-animation-name:spin;
+    animation-name:spin;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
