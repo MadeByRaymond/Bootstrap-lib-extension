@@ -168,8 +168,14 @@
 .fs-10{
     font-size: 10px!important;
 }
+.fs-11{
+    font-size: 11px!important;
+}
 .fs-12{
     font-size: 12px!important;
+}
+.fs-13{
+    font-size: 13px!important;
 }
 .fs-14{
     font-size: 14px!important;
@@ -206,6 +212,9 @@
 }
 .fs-40{
     font-size: 40px!important;
+}
+.fs-50{
+    font-size: 50px!important;
 }
 
 /* Text Wraps  */
